@@ -1,0 +1,13 @@
+import rospy
+import serial 
+from std_msgs.msg import String
+
+inp='n'
+while (inp!='y'):
+ print('Can I start')
+ inp=raw_input();
+print('system is starting')
+ser = serial.Serial('/dev/ttyACM0', 9600)
+ser.write('5')
+
+

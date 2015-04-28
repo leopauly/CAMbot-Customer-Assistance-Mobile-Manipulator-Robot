@@ -1,0 +1,8 @@
+prefix=/home/haha/catkin_ws/devel
+
+Name: rosserial_client
+Description: Description of rosserial_client
+Version: 0.6.1
+Cflags: 
+Libs: -L/home/haha/catkin_ws/devel/lib 
+Requires: 

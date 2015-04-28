@@ -1,0 +1,16 @@
+Serial Node : ACM0
+------------------
+cd catkin_ws
+source ./devel/setup.sh
+rosrun beginner_tutorials cameranode.py
+
+
+
+
+Rossearial in ACM1
+------------------
+rosrun rosserial_python serial_node.py _port:=/dev/ttyACM1
+rostopic pub toggle_led std_msgs/String ons --once
+
+
+
